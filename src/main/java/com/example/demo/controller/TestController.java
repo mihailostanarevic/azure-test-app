@@ -10,4 +10,9 @@ public class TestController {
     public String getMessage() {
         return "Hello world!";
     }
+
+    @GetMapping("/other")
+    public String getOtherMessage() {
+        return "Hello Azure";
+    }
 }
